@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/laptop.css" media="screen"/>
+    <link rel="stylesheet" href="./css/tablet.css" media="screen" />
+    <link rel="stylesheet" href="./css/mobile.css" media="screen"/>
+    <link rel="stylesheet" href="./css/font.css" />
+    <title>Assignment 03</title>
+  </head>
+  <body>
+    <article>
+      <section id="banner">
+        <img src="images/banner.jpg" alt="Man Walking In The Forest" />
+        <div class="banner-title">
+          <h1>Đặng Hoàng Nhân</h1>
+          <span>Java Developer</span>
+        </div>
+      </section>
+
+      <nav id="nav-bar" class="navbar-expand-lg">
+        <div class="left">
+          <ul>
+            <li><i class="icon-user"></i>&nbsp;<a href="#about">Thông tin</a></li>
+            <li><i class="icon-doc-text-inv"></i>&nbsp;<a href="#job-info">Lý lịch</a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <ul>
+            <li><i class="icon-mail-alt"></i>&nbsp;<a href="#certificate">Chứng chỉ</a></li>
+            <li><i class="icon-star-1"></i>&nbsp;<a href="#project">Dự Án</a></li>
+          </ul>
+        </div>
+        <img class="avatar-img" src="images/dang-hoang-nhan.png" alt="Dang Hoang Nhan" />
+      </nav>
+
+      <section id="about">
+        <div id="target" class="about-container">
+          <h2>Mục tiêu nghề nghiệp</h2>
+          <p>
+            Với kinh nghiệm làm việc hơn 3 năm ở vị trí nhân viên Công nghệ
+              thông tin, cùng với những kiến thức sau khi hoàn thành chứng chỉ
+              Doanh nghiệp của FUNiX, tôi mong muốn sẽ tìm được công việc phù
+              hợp với năng lực, đam mê, và cải thiện thu nhập trong tương lai.
+          </p>
+        </div>
+        <div id="personal-info" class="about-container">
+          <h2>Thông tin cá nhân</h2>
+          <form class="row needs-validation email-input" novalidate>
+            <input type="email" class="form-control email-text" placeholder="Nhập địa chỉ email" data-bs-toggle="tooltip" data-bs-placement="bottom" title="youremail@funix.edu.vn" required />
+            <div class="form-text">Hãy nhập địa chỉ email để xác thực</div>
+            <div class="invalid-feedback">Vui lòng nhập địa chỉ email đúng định dạng.</div>
+            <div class="col-12">
+              <button type="button" class="btn btn-primary confirm-button">Nhập</button>
+            </div>
+            
+          </form>
+          <div class="info-revealed hide-info">
+            <ul>
+              <li><strong>Giới tính:</strong> Nam</li>
+              <li><strong>Ngày sinh:</strong> 26/07/1983</li>
+              <li><strong>Điện thoại:</strong> (+84) 9989008664</li>
+              <li><strong>Email:</strong> nhandhfx20862@funix.edu.vn</li>
+              <li><strong>Địa chỉ:</strong> 149C, Nguyễn Thị Thập, phường 10, Mỹ Tho, Tiền Giang</li>
+            </ul>
+            <ul class="about-social-icons">
+              <li><a class="icon-twitter" href="#"></a></li>
+              <li><a class="icon-facebook" href="https://www.facebook.com/EsplinDang"></a></li>
+              <li><a class="icon-gplus" href="#"></a></li>
+              <li><a class="icon-linkedin" href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="job-info">
+        <div id="experience" class="job-info-container">
+          <div class="container-title">
+            <h2>Kinh nghiệm</h2>
+            <i class="ic-toolbox"></i>
+          </div>
+
+          <button id="btn-experience" type="button" class="btn-viewmore hide-info">▼ View More</button>
+
+          <div class="container-detail hide-info">
+            <div class="container-content">
+              <span class="icon-circle"></span>
+              <ul>
+                <li>
+                  <strong>Nhân viên Công nghệ thông tin - Quỹ hỗ trợ phụ nữ phát triển kinh tế tỉnh Tiền
+                    Giang (Quỹ MOM)</strong><br/>
+                  <em>01/2016 - <span>Hiện tại</span></em>
+                  <p>
+                    - Phát triển các
+                    ứng dụng tạo báo cáo bổ sung cho phần mềm quản lý tín dụng
+                    vi mô.<br />- Viết các ứng dụng nhỏ hỗ trợ việc nhập liệu hồ
+                    sơ vay tín dụng vi mô.<br />- Viết đặc tả phần mềm quản lý
+                    tín dụng vi mô.<br />- Nghiên cứu, đề xuất cải thiện hệ
+                    thống mạng mới cho tổ chức.<br />- Sử dụng các công cụ:
+                    Visual Studio, C#, .NET, Windows Form, SQL Server.
+                  </p>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="container-content">
+              <span class="icon-circle"></span>
+              <ul>
+                <li>
+                  <strong
+                      >Nhân viên công nghệ thông tin - Nhà hàng tiệc cưới Diamond Place (Tp. Hồ Chí
+                      Minh)</strong><br/>
+                  <em>04/2009 - 04/2012</em>
+                  <p>
+                    - Chỉnh sửa, thiết
+                    kế, cải tiến Website theo yêu cầu của Ban Giám đốc.<br />-
+                    Sử dụng các công cụ: Visual Studio, C#, ASP.NET, HTML, CSS,
+                    PTS.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="education" class="job-info-container">
+          <div class="container-title">
+            <h2>Học vấn</h2>
+            <i class="ic-pencil"></i>
+          </div>
+
+          <button id="btn-education" type="button" class="btn-viewmore hide-info">▼ View More</button>
+
+          <div class="container-detail hide-info">
+            <div class="container-content">
+              <span class="icon-circle"></span>
+              <ul>
+                <li>
+                  <strong>FUNiX</strong><br />
+                  <em>02/2023 - 08/2023</em>
+                  <p>
+                      - Tốt nghiệp chứng chỉ doanh
+                      nghiệp nhánh Java Developer.<br />
+                      - GPA: 9/10
+                    </p>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="container-content">
+              <span class="icon-circle"></span>
+              <ul>
+                <li>
+                  <strong>Đại học Công nghệ thông tin</strong><br />
+                  <em>07/2010 - 12/2013</em>
+                  <p>
+                      - Chuyên
+                      ngành: Cử nhân công nghệ thông tin, đào tạo từ xa qua mạng.<br />
+                      - Xếp loại: Khá
+                    </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="hobby" class="job-info-container">
+          <div class="container-title">
+            <h2>Sở thích</h2>
+            <i class="ic-telescope"></i>
+          </div>
+          
+          <button id="btn-hobby" type="button" class="btn-viewmore hide-info">▼ View More</button>
+
+          <div class="container-detail hide-info">
+            <div class="container-content">
+              <div><i class="icon-music-2"></i><br /><span>Âm nhạc</span></div>
+              <div><i class="icon-book-open"></i><br /><span>Đọc sách</span></div>
+              <div><i class="icon-swimming"></i><br /><span>Bơi lội</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="lang-skill" class="job-info-container">
+          <div class="container-title">
+            <h2>Ngôn ngữ</h2>
+          <i class="ic-mic"></i>
+          </div>
+
+          <button id="btn-lang-skill" type="button" class="btn-viewmore hide-info">▼ View More</button>
+          
+          <div class="container-detail hide-info">
+            <div class="container-content">
+              <p>
+                Tiếng Anh - Giao tiếp<br />
+                <span class="blue-level"></span><span class="blue-level"></span><span class="grey-level"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="other-skill" class="job-info-container">
+          <div class="container-title">
+            <h2>Kỹ năng</h2>
+            <i class="ic-tools-2"></i>
+          </div>
+
+          <button id="btn-other-skill" type="button" class="btn-viewmore hide-info">▼ View More</button>
+          
+          <div class="container-detail hide-info">
+            <div class="container-content">
+              <p>
+                HTML<br />
+                <span class="blue-level"></span><span class="grey-level"></span><span class="grey-level"></span><br /><br />
+                Javascript<br />
+                <span class="blue-level"></span><span class="grey-level"></span><span class="grey-level"></span><br /><br />
+                C#, Windows Form<br />
+                <span class="blue-level"></span><span class="blue-level"></span><span class="grey-level"></span><br /><br />
+                .NET Framework, .NET 6<br />
+                <span class="blue-level"></span><span class="blue-level"></span><span class="grey-level"></span><br /><br />
+                Angular<br />
+                <span class="blue-level"></span><span class="grey-level"></span><span class="grey-level"></span><br /><br />
+                SQL Server<br />
+                <span class="blue-level"></span><span class="grey-level"></span><span class="grey-level"></span><br /><br />
+                PHP<br />
+                <span class="blue-level"></span><span class="grey-level"></span><span class="grey-level"></span><br /><br />
+                Photoshop, Inkscape<br />
+                <span class="blue-level"></span><span class="grey-level"></span><span class="grey-level"></span><br /><br />
+                CCNA, CCNA Security<br />
+                <span class="blue-level"></span><span class="grey-level"></span><span class="grey-level"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="certificate">
+        <h2>Chứng chỉ - Giải thưởng</h2>
+
+        <!-- certificate on the first row -->
+        <div class="cert-container">
+          
+          <div class="cert-details">
+            <img src="images/ccna-dhn.png" alt="Website certificate" />
+            <p>
+              <span>chứng chỉ CCNA - VNPro</span><br/>
+              - Chứng chỉ Quản trị mạng CCNA.
+            </p>
+          </div>
+
+          <div class="cert-details rem-border">
+            <img src="images/ccnasec-dhn.png" alt="Website certificate" />
+            <p>
+              <span>chứng chỉ CCNA Security - WAREN</span><br/>
+              - Chứng chỉ Quản trị mạng CCNA Security.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- certificate on the second row -->
+        <div class="cert-container">
+
+          <div class="cert-details rem-border">
+            <img src="images/dniit-dhn.png" alt="DNIIT certificate" />
+            <p>
+              <span>Chứng chỉ DNIIT</span><br/>
+              - Chứng chỉ thuộc chương trình đào tạo lập trình viên của NIIT (Ấn Độ)
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="project">
+        <h2>Dự án</h2>
+        
+        <!-- project column -->
+        <div class="project-container">
+
+          <img src="images/mfAssistance.png" alt="mfAssistance Document Screenshot" />
+          
+          <div class="project-title">đặc tả phần mềm tín dụng vi mô</div>
+          
+          <div class="project-timeline">
+            <span class="blue-filled">2022</span>&nbsp;<span class="icon-user-1">Quỹ MOM</span><span class="icon-lamp">Author</span>
+          </div>
+
+          <div class="project-description">
+            <span>Mô tả</span>
+            <p>Tài liệu mô tả chi tiết về các nghiệp vụ tín dụng vi mô cho
+              việc phát triển phần mềm quản lý tín dụng vi mô.</p>
+
+            <div class="grid-row-border"></div> <!-- span div for seperating -->
+
+            <span>Nhiệm vụ</span>
+            <p>Phân tích, viết, hiệu chỉnh nội dung đặc tả.</p>
+
+            <div class="grid-row-border"></div> <!-- span div for seperating -->
+
+            <span>Công nghệ</span>
+            <p>Microsoft Word, Inkscape.</p>
+          </div>
+        </div>
+        
+        <!-- project column -->
+        <div class="project-container">
+
+          <img src="images/smallstuff-screenshot.png" alt="Smallstuff Screenshot" />
+          
+          <div class="project-title">ỨNG DỤNG TẠO BÁO CÁO BỔ SUNG, HỖ TRỢ NHẬP LIỆU PHẦN MỀM TÍN DỤNG
+            VI MÔ</div>
+          
+          <div class="project-timeline">
+            <span class="blue-filled">2016</span>&nbsp;<span class="icon-user-1">Quỹ MOM</span><span class="icon-lamp">Developer</span>
+          </div>
+          
+          <div class="project-description">
+            <span>Mô tả</span>
+            <p>Ứng dụng dùng để tạo các báo cáo bổ sung theo yêu cầu của
+              tổ chức và các chức năng hỗ trợ nhập liệu hồ sơ vay tín dụng
+              vi mô.</p>
+            
+              <div class="grid-row-border"></div> <!-- span div for seperating -->
+            
+              <span>Nhiệm vụ</span>
+              <p>Phát triển, tối ưu code và xử lý lỗi.</p>
+
+              <div class="grid-row-border"></div> <!-- span div for seperating -->
+              
+              <span>Công nghệ</span>
+              <p>C#, .NET Framework 4.7, Windows Form, SQL Server.</p>
+          </div>
+        </div>
+
+        <!-- project column -->
+        <div class="project-container">
+          
+          <img src="images/project_3.png" alt="Picture of project 3" />
+          
+          <div class="project-title">trang web diamondplace</div>
+          
+          <div class="project-timeline">
+            <span class="blue-filled">2012</span>&nbsp;<span class="icon-user-1">DiamondPlace</span><span class="icon-lamp">Developer</span>
+          </div>
+          
+          <div class="project-description">
+            <span>Mô tả</span>
+            <p>Website xem thông tin về nhà hàng tiệc cưới.</p>
+          
+            <div class="grid-row-border"></div> <!-- span div for seperating -->
+          
+            <span>Nhiệm vụ</span>
+            <p>Phát triển, tối ưu code và xử lý lỗi.</p>
+          
+            <div class="grid-row-border"></div> <!-- span div for seperating -->
+          
+            <span>Công nghệ</span>
+            <p>HTML, CSS, ASP.NET, Photoshop.</p>
+          </div>
+        
+        </div>
+      </section>
+
+      <footer>
+        <ul>
+          <li><i class="icon-facebook-circled"></i>&nbsp;<a href="https://www.facebook.com/EsplinDang">Facebook</a></li>
+          <li><i class="icon-linkedin-circled"></i>&nbsp;<a href="#">LinkedIn</a></li>
+          <li><i class="icon-github-circled"></i>&nbsp;<a href="#">Github</a></li>
+        </ul>
+      </footer>
+    </article>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

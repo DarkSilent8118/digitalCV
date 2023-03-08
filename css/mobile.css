@@ -1,0 +1,102 @@
+/* UNIVERSAL STYLE */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+@media screen and (max-width: 768px) {
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 11pt;
+    margin: 40px;
+  }
+    
+   /* TOP BANNER SECTION */
+   #banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;  /* crop the image in banner */
+    text-align: center;
+  }
+
+  /* NAV-BAR SECTION*/
+  #nav-bar {
+    position: relative;
+    display: block;
+    align-items: center;    
+    width: 100%;
+    border-bottom: 0;
+  }
+
+  #nav-bar .left {
+    display: block;
+    width: 100%;
+  }
+
+  #nav-bar .right {
+    display: block;
+    width: 100%;
+  }
+
+  #nav-bar ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  #nav-bar li {
+    display: block;
+    border-left: 0;
+    padding: 10px 0;
+  }
+
+  /* REMOVE BORDER FOR LAST LI AT THE LEFT DIV AND RIGHT DIV */
+  #nav-bar .left li:last-child,
+  #nav-bar .right li:last-child {
+    border-right: 0;
+  }
+
+  /* ABOUT SECTION */
+  #about {
+    display: block;
+  }
+
+  #about .about-container {
+    width: 100%;
+  }
+
+  /* JOB-INFO SECTION */
+  #job-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px 20px;
+  }
+
+  /* CERTIFICATE SECTION */
+  .cert-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+
+  .cert-details {
+    display: flex;
+    border-right: none;
+    border-bottom: 1px #fc8c30 solid;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* PROJECT SECTION */
+  #project {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
